@@ -1,0 +1,47 @@
+.container{
+	position: relative;
+	text-align: center;
+}
+
+#header{
+	position: relative;
+	float: right;
+	height:50px;
+	width: auto;
+	padding: 5px 5px 5px 5px;
+
+}
+#header li{
+	list-style-type: none;
+	display: inline-block;
+
+}
+#header a{
+	text-decoration: none;
+}
+#logo img{
+	position: relative;
+	left: 100;
+	top: 150;
+	width: 270px;
+	height: auto;
+
+}
+#search{
+	position: relative;
+	right:-20;
+	top: 180;
+}
+#button{
+	position: relative;
+	right:-20;
+	top: 180;
+}
+#footer{
+	width: 100%;
+	height: 45px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
